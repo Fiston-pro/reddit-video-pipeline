@@ -1,4 +1,7 @@
-# Vercel Dashboard API Dependencies
-# Minimal dependencies for serverless deployment
+# Streamlit Cloud Dependencies
+# Complete dependencies for dashboard
 
-supabase>=2.3.0
+streamlit==1.31.0
+supabase==2.0.3
+httpx==0.24.1
+pandas==2.2.0
