@@ -5,8 +5,9 @@ pyyaml==6.0.1
 # Reddit
 praw==7.7.1
 
-# Database
-supabase==2.3.0
+# Database - pinned to compatible version
+supabase==2.0.3
+httpx==0.24.1
 
 # Text processing
 textblob==0.17.1
@@ -52,4 +53,5 @@ tqdm==4.66.1
 # gspread==5.12.4
 
 # Dashboard (Phase 2)
-# streamlit==1.31.0
+streamlit==1.31.0
+pandas==2.2.0
