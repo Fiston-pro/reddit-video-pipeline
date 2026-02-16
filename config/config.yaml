@@ -1,0 +1,60 @@
+reddit:
+  subreddit: "cheating_stories"
+  posts_per_day: 50
+  min_upvotes: 100
+  max_words: 1500
+  min_hours_old: 1  # Don't scrape brand new posts
+
+virality:
+  upvote_velocity_weight: 0.30
+  comment_velocity_weight: 0.25
+  upvote_ratio_weight: 0.15
+  awards_weight: 0.15
+  length_weight: 0.10
+  sentiment_weight: 0.05
+
+video:
+  aspect_ratio: "9:16"
+  fps: 24
+  resolution: [1080, 1920]
+  max_duration: 180
+  subtitle_fontsize: 70
+  subtitle_font: "Impact"
+  subtitle_color: "white"
+  subtitle_stroke_color: "black"
+  subtitle_stroke_width: 3
+
+tts:
+  engine: "edge-tts"
+  voice: "en-US-AriaNeural"
+  fallback_voice: "en-US-GuyNeural"
+
+storage:
+  google_drive_folder_id: ""  # Fill after creating Google Drive folder
+  local_video_retention_days: 7
+  max_videos_in_drive: 300
+
+platforms:
+  youtube:
+    enabled: true
+    category_id: "24"  # Entertainment
+    privacy: "public"
+    tags: ["shorts", "reddit", "storytime", "cheating"]
+
+  instagram:
+    enabled: true
+    hashtags: ["reels", "redditstories", "storytime", "cheating", "viral"]
+
+  tiktok:
+    enabled: false  # Enable after API approval
+
+tracking:
+  metrics_pull_interval_hours: 24
+  retention_days: 90
+  google_sheets_id: ""  # Fill after creating Google Sheet
+
+notifications:
+  email_enabled: false
+  discord_webhook_url: ""
+  notify_on_errors: true
+  notify_on_approval_ready: true

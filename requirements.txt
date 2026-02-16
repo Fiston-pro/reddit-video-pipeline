@@ -1,0 +1,55 @@
+# Core
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Reddit
+praw==7.7.1
+
+# Database
+supabase==2.3.0
+
+# Text processing
+textblob==0.17.1
+nltk==3.8.1
+
+# AI Enhancement
+anthropic==0.39.0
+
+# TTS
+edge-tts==6.1.10
+gTTS==2.5.0
+
+# Video generation - using more compatible versions
+moviepy==1.0.3
+imageio==2.34.0
+imageio-ffmpeg==0.4.9
+pillow>=9.5.0,<11.0.0
+decorator==4.4.2
+proglog==0.1.10
+
+# Social media
+requests==2.31.0
+
+# Scheduling
+schedule==1.2.1
+
+# Utilities
+retry==0.9.2
+loguru==0.7.2
+python-dateutil==2.8.2
+tqdm==4.66.1
+
+# ============================================================================
+# PHASE 2+ DEPENDENCIES (Commented out - install when needed)
+# ============================================================================
+
+# Subtitles (Phase 2)
+# openai-whisper==20231117
+
+# Google APIs (Phase 3)
+# google-api-python-client==2.115.0
+# google-auth-oauthlib==1.2.0
+# gspread==5.12.4
+
+# Dashboard (Phase 2)
+# streamlit==1.31.0

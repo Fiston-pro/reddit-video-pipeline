@@ -1,0 +1,4 @@
+# Vercel Dashboard API Dependencies
+# Minimal dependencies for serverless deployment
+
+supabase>=2.3.0

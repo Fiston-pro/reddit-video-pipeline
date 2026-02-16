@@ -1,0 +1,63 @@
+# Exclude from Vercel deployment
+
+# Data files (videos, voiceovers, logs)
+data/
+*.mp4
+*.mp3
+*.wav
+
+# Assets (background videos - too large)
+assets/backgrounds/
+
+# Credentials (security)
+credentials/
+*.json
+!vercel.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts (not needed for dashboard)
+scripts/
+
+# Tests
+tests/
+*.test.py
+
+# Documentation
+*.md
+!README.md
+
+# Local generators (not needed for dashboard)
+src/generators/
+src/scrapers/
+src/uploaders/
+src/trackers/
+src/jobs/
+
+# Keep only what's needed for dashboard:
+# - streamlit_app.py
+# - src/database/ (for Supabase client)
+# - src/utils/ (for config/logger)
+# - requirements-streamlit.txt
